@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body {
   }
   
   .buttons button.yellow {
-    background-color: yellow;
+    background-color: rgb(255, 174, 0);
     color: #333;
   }
   
