@@ -46,6 +46,11 @@ body {
     cursor: pointer;
   }
   
+  .buttons button.yellow {
+    background-color: rgb(255, 153, 0);
+    color: #333;
+  }
+  
   .buttons button:hover {
     background-color: #555;
   }
