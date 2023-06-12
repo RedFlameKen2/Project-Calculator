@@ -25,3 +25,17 @@ function calculateResult() {
     document.getElementById('result').value = 'Error';
   }
 }
+
+function animateButtonClick(button) {
+  button.classList.add('clicked');
+  setTimeout(function() {
+    button.classList.remove('clicked');
+  }, 300);
+}
+
+const buttons = document.querySelectorAll('.buttons button');
+buttons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    animateButtonClick(button);
+  });
+});
